@@ -17,6 +17,8 @@ for loop
      rocket-start-power lunar-mission
     
      rocket-lift-off lunar-mission
+
+     rocket_status = rocket-status $mission name
      
      
 
@@ -36,6 +38,8 @@ for loop
      rocket-start-power mars-mission
     
      rocket-lift-off mars-mission
+
+    rocket_status = rocket-status $mission name
      
      create-and-launch-rocket jupiter-mission
     ------------------------------------------
@@ -52,6 +56,8 @@ for loop
      rocket-start-power jupiter-mission
 
      rocket-lift-off jupiter-mission
+
+     rocket_status = rocket-status $mission name
      
      create-and-launch-rocket saturn-mission
     ----------------------------------------
@@ -68,6 +74,8 @@ for loop
      rocket-start-power saturn-mission
     
      rocket-lift-off saturn-mission
+  
+     rocket_status = rocket-status $mission name
      
      create-and-launch-rocket earth-mission
     --------------------------------------
@@ -84,6 +92,8 @@ for loop
      rocket-start-power earth-mission
     
      rocket-lift-off earth-mission
+
+     rocket_status = rocket-status $mission name
 
      NOTE : why i have created $1 maeans everytime we have to come to script and make change missions that why we can change in start of created and launch cmd only
      ----
